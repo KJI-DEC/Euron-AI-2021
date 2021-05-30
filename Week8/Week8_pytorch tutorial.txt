@@ -1,0 +1,5 @@
+Training a Classifier
+https://www.notion.so/Training-a-Classifier-501564288f804e5893c0a90d2870cb12
+
+Transfer Learning for Computer Vision
+https://www.notion.so/Transfer-Learning-for-Computer-Vision-5db43dbe5a4347abb04167a8a0ae777d
