@@ -1,6 +1,6 @@
 # Show and Tell: A Neural Caption Generator
 
-### Main Idea
+### Overview
 
 - Image description은 challenging task → CV + NLP
 - Image description에 관한 end-to-end system
@@ -16,3 +16,8 @@
 - BLEU-n 평가 방식
 - overfitting이 심했음 → 해결: CNN은 pre-trained model을 사용함
 - 2단계 학습: Inception model의 fixed weight로 train, Fine-Tuning
+
+### Experiments
+
+- human evaluation; 사람보다 좋은 점수를 받은 것도 있었으나 실제로 결과를 보면 그렇지 않음
+- word embedding vector는 유사한 단어들끼리 잘 뭉쳐있도록 학습됨
