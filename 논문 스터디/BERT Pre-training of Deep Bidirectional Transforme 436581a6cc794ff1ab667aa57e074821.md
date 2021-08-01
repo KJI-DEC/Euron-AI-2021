@@ -4,7 +4,6 @@
 
 ## Overview
 
----
 
 - 기존 LM 모델은 undirectional, Left-to-Right/shallow concatenation
 - `Transformer`의 인코더를 쌓아올린 구조
@@ -15,11 +14,10 @@
 
 ## Related work
 
----
 
 - Unsupervised Feature-based Approaches
-- 다양한 적용이 가능한 representation을 학습하는 것. modern NLP System에서는 word embedding을 pretrain함. left-to-right language modeling objectives가 사용됨
-- ELMo
+    - 다양한 적용이 가능한 representation을 학습하는 것. modern NLP System에서는 word embedding을 pretrain함. left-to-right language modeling objectives가 사용됨
+    - ELMo
 - Unsupervised Fine-tuning Approaches
     - word embedding을 unlabeled text로부터 pretrain
 - Transfer Learning from Supervised Data
@@ -27,14 +25,13 @@
 
 ## BERT
 
----
 
 - importance of bidirectional pre-training LM
 - Pre-training & Fine-Tuning
     - Pre-training: train unlabeled data; MLM, NSP
     - Fine-Tuning: fine-tuned by using labeled data from downstream task
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png](BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png)
+![Pre-training and Fine-Tuning](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c71e0335-7b00-4d5f-a799-8caf51f4ca7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075531Z&X-Amz-Expires=86400&X-Amz-Signature=6489db1913fe8f23e5bc36fa0c1da01b3d61909e3bf279c878e1cb5d91d58a06&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### BERT Architecture
 
@@ -52,7 +49,7 @@
 - WordPiece embedding
 - start: [CLS] token, next sentence: [SEP]
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png](BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png)
+![BERT Architecture](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc06b80c-4e6e-4128-b35c-c1c91febd03f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075637Z&X-Amz-Expires=86400&X-Amz-Signature=8742f8211e8cb9ff158cc0573f0362a7430b6577284a963896f61ec7929a21f0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### Masked LM
 
@@ -73,7 +70,7 @@
 - Task specific inputs와 outputs를 BERT에 넣은 후 end-to-end로 fine-tune
 - Fine-tuning 별로 input의 형태가 달라질 수 있음
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png](BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png)
+![Fine-Tuning](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a7be17a-1432-467b-acf9-9f00284af11e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075455Z&X-Amz-Expires=86400&X-Amz-Signature=0d279d1ebbd7006d0e7b7ed6d883a0a8d32fd3876d2cb292e3c02279edec9163&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### Ablation Studies
 
@@ -90,7 +87,6 @@
 
 ## Conclusion
 
----
 
 > Recent empirical improvements due to transfer learning with language models have demonstrated that rich, unsupervised pre-training is an integral part of many language understanding systems. In particular, these results enable even low-resource tasks to benefit from deep unidirectional architectures. *Our major contribution is further generalizing these findings to deep bidirectional architectures, allowing the same pre-trained model to successfully tackle a broad set of NLP tasks.*
 
