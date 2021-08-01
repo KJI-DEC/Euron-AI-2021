@@ -4,7 +4,6 @@
 
 ## Overview
 
----
 
 - 기존 LM 모델은 undirectional, Left-to-Right/shallow concatenation
 - `Transformer`의 인코더를 쌓아올린 구조
@@ -15,7 +14,6 @@
 
 ## Related work
 
----
 
 - Unsupervised Feature-based Approaches
 - 다양한 적용이 가능한 representation을 학습하는 것. modern NLP System에서는 word embedding을 pretrain함. left-to-right language modeling objectives가 사용됨
@@ -27,14 +25,13 @@
 
 ## BERT
 
----
 
 - importance of bidirectional pre-training LM
 - Pre-training & Fine-Tuning
     - Pre-training: train unlabeled data; MLM, NSP
     - Fine-Tuning: fine-tuned by using labeled data from downstream task
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png](BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png)
+![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png](./BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png)
 
 ### BERT Architecture
 
@@ -52,7 +49,7 @@
 - WordPiece embedding
 - start: [CLS] token, next sentence: [SEP]
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png](BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png)
+![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png](./BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png)
 
 ### Masked LM
 
@@ -73,7 +70,7 @@
 - Task specific inputs와 outputs를 BERT에 넣은 후 end-to-end로 fine-tune
 - Fine-tuning 별로 input의 형태가 달라질 수 있음
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png](BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png)
+![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png](./BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png)
 
 ### Ablation Studies
 
@@ -90,7 +87,6 @@
 
 ## Conclusion
 
----
 
 > Recent empirical improvements due to transfer learning with language models have demonstrated that rich, unsupervised pre-training is an integral part of many language understanding systems. In particular, these results enable even low-resource tasks to benefit from deep unidirectional architectures. *Our major contribution is further generalizing these findings to deep bidirectional architectures, allowing the same pre-trained model to successfully tackle a broad set of NLP tasks.*
 
