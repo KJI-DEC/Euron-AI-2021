@@ -16,8 +16,8 @@
 
 
 - Unsupervised Feature-based Approaches
-- 다양한 적용이 가능한 representation을 학습하는 것. modern NLP System에서는 word embedding을 pretrain함. left-to-right language modeling objectives가 사용됨
-- ELMo
+    - 다양한 적용이 가능한 representation을 학습하는 것. modern NLP System에서는 word embedding을 pretrain함. left-to-right language modeling objectives가 사용됨
+    - ELMo
 - Unsupervised Fine-tuning Approaches
     - word embedding을 unlabeled text로부터 pretrain
 - Transfer Learning from Supervised Data
