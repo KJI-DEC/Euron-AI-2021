@@ -31,7 +31,7 @@
     - Pre-training: train unlabeled data; MLM, NSP
     - Fine-Tuning: fine-tuned by using labeled data from downstream task
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png](./BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png)
+![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled.png](https://www.notion.so/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-141bc44d11034d0bb6229e26d9d50788#436581a6cc794ff1ab667aa57e074821)
 
 ### BERT Architecture
 
@@ -49,7 +49,7 @@
 - WordPiece embedding
 - start: [CLS] token, next sentence: [SEP]
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png](./BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png)
+![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png](https://www.notion.so/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-141bc44d11034d0bb6229e26d9d50788#53319570af6047d99374612cc0deb592)
 
 ### Masked LM
 
@@ -70,7 +70,7 @@
 - Task specific inputs와 outputs를 BERT에 넣은 후 end-to-end로 fine-tune
 - Fine-tuning 별로 input의 형태가 달라질 수 있음
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png](./BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png)
+![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png](https://www.notion.so/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-141bc44d11034d0bb6229e26d9d50788#b5047095491345ea99708e969e900b65)
 
 ### Ablation Studies
 
