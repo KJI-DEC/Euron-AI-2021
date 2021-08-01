@@ -49,7 +49,7 @@
 - WordPiece embedding
 - start: [CLS] token, next sentence: [SEP]
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%201.png](https://www.notion.so/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-141bc44d11034d0bb6229e26d9d50788#53319570af6047d99374612cc0deb592)
+![BERT Architecture](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc06b80c-4e6e-4128-b35c-c1c91febd03f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075637Z&X-Amz-Expires=86400&X-Amz-Signature=8742f8211e8cb9ff158cc0573f0362a7430b6577284a963896f61ec7929a21f0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### Masked LM
 
@@ -70,7 +70,7 @@
 - Task specific inputs와 outputs를 BERT에 넣은 후 end-to-end로 fine-tune
 - Fine-tuning 별로 input의 형태가 달라질 수 있음
 
-![BERT%20Pre-training%20of%20Deep%20Bidirectional%20Transforme%20436581a6cc794ff1ab667aa57e074821/Untitled%202.png](https://www.notion.so/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-141bc44d11034d0bb6229e26d9d50788#b5047095491345ea99708e969e900b65)
+![Fine-Tuning](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a7be17a-1432-467b-acf9-9f00284af11e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075455Z&X-Amz-Expires=86400&X-Amz-Signature=0d279d1ebbd7006d0e7b7ed6d883a0a8d32fd3876d2cb292e3c02279edec9163&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### Ablation Studies
 
